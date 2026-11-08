@@ -15,7 +15,23 @@ This project demonstrates practical network discovery using Nmap in Kali Linux.
 - Nmap
 
 ## Methodology
-Nmap was used to scan the authorized lab network, identify active hosts, detect available services, and gather operating system information.
+
+Nmap was used in an authorized virtual lab environment to:
+
+- Scan the local network and identify active hosts.
+- Identify MAC addresses where available.
+- Perform operating system detection on the selected target.
+- Identify open TCP ports and their associated service names.
+
+## Commands Used
+
+### Network Discovery
+
+nmap -sn -oN 01-network-discovery.txt 192.168.96.0/24
+
+### Operating System Detection
+
+sudo nmap -O -oN 02-os-detection.txt 192.168.96.137
 
 ## Results
 
