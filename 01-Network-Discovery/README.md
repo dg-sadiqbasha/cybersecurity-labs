@@ -68,9 +68,23 @@ sudo nmap -O -oN 02-os-detection.txt 192.168.96.137
 - Detected the target machine's estimated operating system.
 - Saved actual Nmap scan outputs in this repository.
 
+## 🟡 SCREENSHOTS
+
+### 1. Network Discovery
+
+![Network Discovery](Screenshots/Network%20Discovery.png)
+
+*Network discovery scan identifying five active hosts.*
+
+### 2. Operating System Detection
+
+![Operating System Detection](Screenshots/OS%20detection.png)
+
+*OS detection scan identifying the target's estimated Linux version and open ports.*
+
 
 ## 🟡 CONCLUSION
 This project demonstrates fundamental network discovery and host identification using Nmap.
 
 ## 🟡 DISCLAIMER
-All activities are performed for educational purposes in an authorized lab environment.
+All activities are performed for educational purposes in an authorized lab environment. No unauthorized systems were targeted.
