@@ -30,11 +30,15 @@ Nmap was used in an authorized virtual lab environment to:
 
 ### For Network Discovery
 
+```bash
 nmap -sn -oN 01-network-discovery.txt 192.168.96.0/24
+```
 
 ### For Operating System Detection
 
+```bash
 sudo nmap -O -oN 02-os-detection.txt 192.168.96.137
+```
 
 
 
