@@ -1,20 +1,21 @@
 # Network Discovery
 
-## Project Overview
+## 🟡 PROJECT OVERVIEW
 Network Discovery is the process of identifying devices connected to a network and collecting basic information about them.
 
 This project demonstrates practical network discovery using Nmap in Kali Linux.
 
-## Objectives
+## 🟡 OBJECTIVES
+
 - Identify the network range.
 - Discover live hosts.
 - Identify MAC addresses (where available).
 - Detect operating systems (where possible).
 
-## Tool Used
+## 🟡 TOOLS USED
 - Nmap
 
-## Methodology
+## 🟡 METHODOLOGY
 
 Nmap was used in an authorized virtual lab environment to:
 
@@ -23,17 +24,22 @@ Nmap was used in an authorized virtual lab environment to:
 - Perform operating system detection on the selected target.
 - Identify open TCP ports and their associated service names.
 
-## Commands Used
 
-### Network Discovery
+
+## 🟡 COMMANDS EXECUTED
+
+### For Network Discovery
 
 nmap -sn -oN 01-network-discovery.txt 192.168.96.0/24
 
-### Operating System Detection
+### For Operating System Detection
 
 sudo nmap -O -oN 02-os-detection.txt 192.168.96.137
 
-## Results
+
+
+
+## 🟡 SCAN RESULTS
 
 ### Network Discovery
 - Network Range: 192.168.96.0/24
@@ -51,14 +57,16 @@ sudo nmap -O -oN 02-os-detection.txt 192.168.96.137
 - Device Type: General Purpose
 - Network Distance: 1 hop
 
-### Key Findings
+## 🟡 KEY FINDINGS
+
 - Successfully identified five active hosts.
 - Identified available MAC addresses.
 - Detected the target machine's estimated operating system.
 - Saved actual Nmap scan outputs in this repository.
 
-## Conclusion
+
+## 🟡 CONCLUSION
 This project demonstrates fundamental network discovery and host identification using Nmap.
 
-## Disclaimer
+## 🟡 DISCLAIMER
 All activities are performed for educational purposes in an authorized lab environment.
