@@ -1,0 +1,292 @@
+theHarvester -d certifiedhacker.com -b all
+Read proxies.yaml from /etc/theHarvester/proxies.yaml
+*******************************************************************
+*  _   _                                            _             *
+* | |_| |__   ___    /\  /\__ _ _ ____   _____  ___| |_ ___ _ __  *
+* | __|  _ \ / _ \  / /_/ / _` | '__\ \ / / _ \/ __| __/ _ \ '__| *
+* | |_| | | |  __/ / __  / (_| | |   \ V /  __/\__ \ ||  __/ |    *
+*  \__|_| |_|\___| \/ /_/ \__,_|_|    \_/ \___||___/\__\___|_|    *
+*                                                                 *
+* theHarvester 4.11.1                                             *
+* Coded by Christian Martorella                                   *
+* Edge-Security Research                                          *
+* cmartorella@edge-security.com                                   *
+*                                                                 *
+*******************************************************************
+
+[*] Target: certifiedhacker.com 
+
+Read api-keys.yaml from /etc/theHarvester/api-keys.yaml
+Failed to process bevigil search for word: 'certifiedhacker.com'
+Error Message: 
+[!] Missing API key for bevigil. 
+Read api-keys.yaml from /etc/theHarvester/api-keys.yaml
+
+[!] Missing API key for Bitbucket. 
+Read api-keys.yaml from /etc/theHarvester/api-keys.yaml
+Failed to process bufferoverun search for word: 'certifiedhacker.com'
+Error Message: 
+[!] Missing API key for bufferoverun. 
+Read api-keys.yaml from /etc/theHarvester/api-keys.yaml
+Failed to perform BuiltWith search for word: 'certifiedhacker.com'
+A Missing Key Error occurred in builtwith: 
+[!] Missing API key for BuiltWith. 
+Read api-keys.yaml from /etc/theHarvester/api-keys.yaml
+Failed to process brave search for word: 'certifiedhacker.com'
+Error Message: 
+[!] Missing API key for Brave Search. 
+Read api-keys.yaml from /etc/theHarvester/api-keys.yaml
+Censys API key is missing or invalid: 
+[!] Missing API key for Censys ID and/or Secret. 
+Read api-keys.yaml from /etc/theHarvester/api-keys.yaml
+Read api-keys.yaml from /etc/theHarvester/api-keys.yaml
+A Missing key error occurred in criminalip: 
+[!] Missing API key for criminalip. 
+Read api-keys.yaml from /etc/theHarvester/api-keys.yaml
+A Missing Key error occurred in dehashed: 
+[!] Missing API key for Dehashed. 
+Read api-keys.yaml from /etc/theHarvester/api-keys.yaml
+
+[!] Missing API key for DNSDumpster. 
+Read api-keys.yaml from /etc/theHarvester/api-keys.yaml
+A Missing Key error occurred in dymo: 
+[!] Missing API key for dymo. 
+Read api-keys.yaml from /etc/theHarvester/api-keys.yaml
+Read api-keys.yaml from /etc/theHarvester/api-keys.yaml
+A Missing Key error occurred in fullhunt: 
+[!] Missing API key for fullhunt. 
+Read api-keys.yaml from /etc/theHarvester/api-keys.yaml
+Error initializing SearchGithubCode: 
+[!] Missing API key for Github. 
+A Missing Key error occurred in github-code: 
+[!] Missing API key for Github. 
+Read api-keys.yaml from /etc/theHarvester/api-keys.yaml
+Read api-keys.yaml from /etc/theHarvester/api-keys.yaml
+
+[!] Missing API key for HaveIBeenPwned. 
+Read api-keys.yaml from /etc/theHarvester/api-keys.yaml
+A Missing Key error occurred in Hunter: 
+[!] Missing API key for Hunter. 
+Read api-keys.yaml from /etc/theHarvester/api-keys.yaml
+A Missing Key error occurred in Hunter How: 
+[!] Missing API key for hunterhow. 
+Read api-keys.yaml from /etc/theHarvester/api-keys.yaml
+A Missing Key error occurred in intelx: 
+[!] Missing API key for Intelx. 
+Read api-keys.yaml from /etc/theHarvester/api-keys.yaml
+Read api-keys.yaml from /etc/theHarvester/api-keys.yaml
+[*] Mojeek: No API key found, using default scraping mode.
+Read api-keys.yaml from /etc/theHarvester/api-keys.yaml
+A Missing Key error occurred in Netlas: 
+[!] Missing API key for netlas. 
+Read api-keys.yaml from /etc/theHarvester/api-keys.yaml
+Unexpected error occurred in Onyphe module: 
+[!] Missing API key for onyphe. 
+Read api-keys.yaml from /etc/theHarvester/api-keys.yaml
+A Missing Key error occurred in PentestTools search: 
+[!] Missing API key for PentestTools. 
+Read api-keys.yaml from /etc/theHarvester/api-keys.yaml
+A Missing Key error occurred in ProjectDiscovery: 
+[!] Missing API key for ProjectDiscovery. 
+Read api-keys.yaml from /etc/theHarvester/api-keys.yaml
+A Missing Key error occurred in RocketReach: 
+[!] Missing API key for RocketReach. 
+Read api-keys.yaml from /etc/theHarvester/api-keys.yaml
+
+[!] Missing API key for SecurityScorecard. 
+Read api-keys.yaml from /etc/theHarvester/api-keys.yaml
+A Missing Key error occurred Security Trails: 
+[!] Missing API key for Securitytrail. 
+Read api-keys.yaml from /etc/theHarvester/api-keys.yaml
+A Missing Key error occurred in sherlockeye: 
+[!] Missing API key for sherlockeye. 
+Read api-keys.yaml from /etc/theHarvester/api-keys.yaml
+A Missing Key error occurred in Shodan search: 
+[!] Missing API key for Shodan. 
+Read api-keys.yaml from /etc/theHarvester/api-keys.yaml
+A Missing Key error occurred in Tomba: 
+[!] Missing API key for Tomba Key and/or Secret. 
+Read api-keys.yaml from /etc/theHarvester/api-keys.yaml
+A Missing Key error occurred in venacus search: 
+[!] Missing API key for Venacus. 
+Read api-keys.yaml from /etc/theHarvester/api-keys.yaml
+A Missing Key error occurred in virustotal search: 
+[!] Missing API key for virustotal. 
+Read api-keys.yaml from /etc/theHarvester/api-keys.yaml
+A Missing Key error occurred in whoisxml search: 
+[!] Missing API key for whoisxml. 
+Read api-keys.yaml from /etc/theHarvester/api-keys.yaml
+Read api-keys.yaml from /etc/theHarvester/api-keys.yaml
+A Missing Key error occurred in zoomeye: 
+[!] Missing API key for zoomeye. 
+        Searching results.
+[*] Searching Certspotter. 
+Chaos API error: get access token here https://cloud.projectdiscovery.io
+[*] Searching Chaos. 
+[*] Searching CRTsh. 
+[*] Searching Baidu. 
+[*] Searching Duckduckgo. 
+Fofa API error: [-700] 账号无效
+Failed to parse Fofa response: 
+[!] Missing API key for Fofa API (Invalid credentials). 
+[*] Searching Fofa. 
+[*] Searching Hackertarget. 
+2026-11-09 00:12:32,073 - theHarvester.discovery.hudsonrocksearch - INFO - Starting Hudson Rock processing for: certifiedhacker.com
+2026-11-09 00:12:32,076 - theHarvester.discovery.hudsonrocksearch - INFO - Starting Hudson Rock search for: certifiedhacker.com
+2026-11-09 00:12:39,021 - theHarvester.discovery.hudsonrocksearch - INFO - Domain statistics: 0 total compromised, 0 employees, 0 users
+[*] Searching Gitlab. 
+Read api-keys.yaml from /etc/theHarvester/api-keys.yaml
+2026-11-09 00:12:40,022 - theHarvester.discovery.hudsonrocksearch - INFO - Hudson Rock search completed. Found 0 hosts, 0 IPs, 0 emails
+2026-11-09 00:12:40,023 - theHarvester.discovery.hudsonrocksearch - INFO - Hudson Rock processing completed successfully: 0 hosts, 0 IPs, 0 emails, 0 stealers
+[*] Searching Hudsonrock. 
+[*] Searching Leaklookup. 
+LeakIX API requires authentication: "Incorrect API Key"
+[*] Searching Mojeek. 
+[*] Searching Leakix. 
+[*] Searching Otx. 
+[*] Searching Rapiddns. 
+[*] Searching ShodanInternetDB. 
+[*] Searching Robtex. 
+[*] Searching Subdomaincenter. 
+[*] Searching Thc. 
+No response from ThreatCrowd API for: certifiedhacker.com
+[*] Searching Threatcrowd. 
+[*] Searching Commoncrawl. 
+[*] Searching Subdomainfinderc99. 
+[*] Windvane API key not found. Using limited unauthenticated access.
+[*] Searching Urlscan. 
+[*] API unavailable, using fallback subdomain pattern search...
+[*] Searching Yahoo. 
+[*] Found 4 subdomains using DNS fallback
+[*] Searching Windvane. 
+[*] Searching Waybackarchive. 
+
+[*] ASNS found: 1
+--------------------
+AS31898
+
+[*] Interesting Urls found: 3
+--------------------
+http://certifiedhacker.com/
+https://certifiedhacker.com/
+https://www.certifiedhacker.com/
+
+[*] No LinkedIn users found.
+
+
+
+[*] LinkedIn Links found: 0
+---------------------
+
+[*] IPs found: 8
+-------------------
+162.241.216.11
+183.82.41.50
+202.75.54.102
+64.90.163.30
+69.89.31.193
+
+[*] No emails found.
+
+[*] No people found.
+
+[*] Hosts found: 88
+---------------------
+85368558.certifiedhacker.com
+85368558.certifiedhacker.com:162.241.216.11
+autoconfig.certifiedhacker.com
+autoconfig.certifiedhacker.com:162.241.216.11
+autodiscover.certifiedhacker.com
+autodiscover.certifiedhacker.com:162.241.216.11
+autodiscover.demo.certifiedhacker.com
+autodiscover.demo.certifiedhacker.com:162.241.216.11
+avelyra.certifiedhacker.com
+avelyra.certifiedhacker.com:162.241.216.11
+blog.certifiedhacker.com
+blog.certifiedhacker.com:162.241.216.11
+caldren.certifiedhacker.com
+caldren.certifiedhacker.com:162.241.216.11
+certifiedhacker.com:mail.certifiedhacker.com
+certifiedhacker.com:mail.certifiedhacker.com.
+ciphershield.certifiedhacker.com
+ciphershield.certifiedhacker.com:66.235.200.145
+cloud.certifiedhacker.com
+cloud.certifiedhacker.com:162.241.216.11
+cpanel.certifiedhacker.com
+cpanel.certifiedhacker.com:162.241.216.11
+cpanel.certifiedhacker.com:64:ff9b::a2f1:d80b
+cpanel.demo.certifiedhacker.com
+cpcalendars.certifiedhacker.com
+cpcalendars.certifiedhacker.com:162.241.216.11
+cpcalendars.demo.certifiedhacker.com
+cpcontacts.certifiedhacker.com
+cpcontacts.certifiedhacker.com:162.241.216.11
+cpcontacts.demo.certifiedhacker.com
+demo.certifiedhacker.com
+demo.certifiedhacker.com:162.241.216.11
+events.certifiedhacker.com
+events.certifiedhacker.com:162.241.216.11
+events.certifiedhacker.com:64:ff9b::a2f1:d80b
+fleet.certifiedhacker.com
+fleet.certifiedhacker.com:162.241.216.11
+fleet.certifiedhacker.com:64:ff9b::a2f1:d80b
+ftp.certifiedhacker.com
+ftp.certifiedhacker.com:162.241.216.11
+iam.certifiedhacker.com
+iam.certifiedhacker.com:162.241.216.11
+ir.certifiedhacker.com
+ir.certifiedhacker.com:162.241.216.11
+itf.certifiedhacker.com
+itf.certifiedhacker.com:162.241.216.11
+itf.certifiedhacker.com:64:ff9b::a2f1:d80b
+kestrava.certifiedhacker.com
+kestrava.certifiedhacker.com:162.241.216.11
+mail.85368558.certifiedhacker.com
+mail.85368558.certifiedhacker.com:162.241.216.11
+mail.certifiedhacker.com
+mail.certifiedhacker.com:162.241.216.11
+mail.certifiedhacker.com:64:ff9b::a2f1:d80b
+mail.demo.certifiedhacker.com
+mail.demo.certifiedhacker.com:162.241.216.11
+news.certifiedhacker.com
+news.certifiedhacker.com:162.241.216.11
+norvessa.certifiedhacker.com
+norvessa.certifiedhacker.com:162.241.216.11
+notifications.certifiedhacker.com
+notifications.certifiedhacker.com:162.241.216.11
+offensive.certifiedhacker.com
+offensive.certifiedhacker.com:162.241.216.11
+pstn.certifiedhacker.com
+pstn.certifiedhacker.com:162.241.216.11
+pstn.certifiedhacker.com:64:ff9b::a2f1:d80b
+sftp.certifiedhacker.com
+sftp.certifiedhacker.com:162.241.216.11
+sftp.certifiedhacker.com:64:ff9b::a2f1:d80b
+soc.certifiedhacker.com
+soc.certifiedhacker.com:162.241.216.11
+tavrixon.certifiedhacker.com
+tavrixon.certifiedhacker.com:162.241.216.11
+threatintelligence.certifiedhacker.com
+trustcenter.certifiedhacker.com
+trustcenter.certifiedhacker.com:162.241.216.11
+trustcenter.certifiedhacker.com:64:ff9b::a2f1:d80b
+webdisk.certifiedhacker.com
+webdisk.certifiedhacker.com:162.241.216.11
+webdisk.certifiedhacker.com:64:ff9b::a2f1:d80b
+webdisk.demo.certifiedhacker.com
+webdisk.demo.certifiedhacker.com:162.241.216.11
+webmail.certifiedhacker.com
+webmail.certifiedhacker.com:162.241.216.11
+webmail.demo.certifiedhacker.com
+website-215f0f34.certifiedhacker.com
+website-25f58cec.certifiedhacker.com
+
+[*] Performing SecurityScorecard scan...
+Read api-keys.yaml from /etc/theHarvester/api-keys.yaml
+An exception has occurred in SecurityScorecard scanning: 
+[!] Missing API key for SecurityScorecard. 
+
+[*] Performing BuiltWith scan...
+Read api-keys.yaml from /etc/theHarvester/api-keys.yaml
+
+[!] Missing API key for BuiltWith.
