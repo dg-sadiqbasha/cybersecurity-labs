@@ -1,8 +1,8 @@
-# Nmap Scanning and Enumeration
+# Nmap Scanning [ Active Reconnaissance ]
 
 ## Project Overview
 
-Nmap (Network Mapper) is a network scanning tool used to discover hosts, identify open ports, detect services and versions, and gather information about target systems.
+Nmap (Network Mapper) is a network scanning tool used for Active Reconnaissance, to discover hosts, identify open ports, detect services and versions, and gather information about target systems.
 
 This project demonstrates practical network scanning and enumeration techniques using Nmap in an authorized VMware lab environment.
 
