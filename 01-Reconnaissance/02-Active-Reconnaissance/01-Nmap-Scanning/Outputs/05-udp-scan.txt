@@ -1,0 +1,12 @@
+# Nmap 7.99 scan initiated Mon Nov  9 14:31:32 2026 as: /usr/lib/nmap/nmap -sU -oN 05-udp-scan.txt 192.168.96.137
+Nmap scan report for 192.168.96.137
+Host is up (0.00089s latency).
+Not shown: 953 closed udp ports (port-unreach), 43 open|filtered udp ports (no-response)
+PORT     STATE SERVICE
+53/udp   open  domain
+111/udp  open  rpcbind
+137/udp  open  netbios-ns
+2049/udp open  nfs
+MAC Address: 00:0C:29:FA:DD:2A (VMware)
+
+# Nmap done at Mon Nov  9 14:48:34 2026 -- 1 IP address (1 host up) scanned in 1022.18 seconds
