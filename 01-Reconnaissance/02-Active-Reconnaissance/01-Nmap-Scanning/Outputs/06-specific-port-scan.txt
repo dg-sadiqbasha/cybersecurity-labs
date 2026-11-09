@@ -1,0 +1,13 @@
+# Nmap 7.99 scan initiated Mon Nov  9 14:54:02 2026 as: /usr/lib/nmap/nmap -p 21,22,23,80,443 -oN 06-specific-port-scan.txt 192.168.96.137
+Nmap scan report for 192.168.96.137
+Host is up (0.0043s latency).
+
+PORT    STATE  SERVICE
+21/tcp  open   ftp
+22/tcp  open   ssh
+23/tcp  open   telnet
+80/tcp  open   http
+443/tcp closed https
+MAC Address: 00:0C:29:FA:DD:2A (VMware)
+
+# Nmap done at Mon Nov  9 14:54:05 2026 -- 1 IP address (1 host up) scanned in 2.90 seconds
