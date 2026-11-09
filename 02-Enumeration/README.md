@@ -77,25 +77,6 @@ enum4linux -a 192.168.96.137 | tee smb-enumeration.txt
 
 **Output:** [04-smb-enumeration.txt](Outputs/04-smb-enumeration.txt)
 
-## Repository Structure
-
-```text
-02-Enumeration/
-│
-├── README.md
-│
-├── Outputs/
-│   ├── 01-ftp-enumeration.txt
-│   ├── 02-smtp-enumeration.txt
-│   ├── 03-snmp-enumeration.txt
-│   └── 04-smb-enumeration.txt
-│
-└── Screenshots/
-    ├── 01-FTP-enumeration.png
-    ├── 02-smtp-enumeration.png
-    └── 03-snmp-enumeration.png
-```
-
 ## Learning Outcomes
 
 - Practiced service-specific enumeration techniques.
