@@ -1,0 +1,12 @@
+# Nmap 7.99 scan initiated Mon Nov  9 22:36:37 2026 as: /usr/lib/nmap/nmap -sV -p 25 --script smtp-commands -oN smtp-enumeration.txt 192.168.96.137
+Nmap scan report for 192.168.96.137
+Host is up (0.0033s latency).
+
+PORT   STATE SERVICE VERSION
+25/tcp open  smtp    Postfix smtpd
+|_smtp-commands: metasploitable.localdomain, PIPELINING, SIZE 10240000, VRFY, ETRN, STARTTLS, ENHANCEDSTATUSCODES, 8BITMIME, DSN
+MAC Address: 00:0C:29:FA:DD:2A (VMware)
+Service Info: Host:  metasploitable.localdomain
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Mon Nov  9 22:36:41 2026 -- 1 IP address (1 host up) scanned in 3.57 seconds
